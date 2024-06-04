@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 72px);
+
+}
+
+.banner-contain{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.banner h1{
+    font-weight: 800px;
+    line-height: 102px;
+    font-size: 108;
+}
+.banner p{
+    font-weight: 600px;
+    max-width: 400px;
+    color: var(--gray);
+}
+
+.banner-btn{
+    display: flex;
+    gap: 40px;
+
+}
+
+.banner-btn button{
+    font-size: 24px;
+}
+
+.secondary-btn{
+    background: transparent;
+    color: var(--gray);
+    border: 1px solid gray;
+
+}
+
+.shopping{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.banner-logo{
+    display: flex;
+    gap: 16px;
+}
